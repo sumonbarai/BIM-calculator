@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background-image: url("./assets/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+form {
+  background-color: #fff;
+  max-width: 500px;
+  min-height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  border-radius: 5px;
+}
+form input {
+  width: 100%;
+  font-size: 16px;
+  padding: 8px;
+  margin: 4px;
+  border: orange;
+  border-bottom: 2px solid rgb(126, 123, 123);
+  color: #3c8dc5;
+}
+form input:focus {
+  outline: none;
+}
+
+#calculateBtn {
+  background-color: #3c8dc5;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+#calculateBtn:hover {
+  background-color: #ffaa0d;
+}
+form p {
+  color: green;
+}
